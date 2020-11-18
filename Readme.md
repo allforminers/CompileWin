@@ -83,7 +83,7 @@ sudo update-alternatives --config x86_64-w64-mingw32-g++
 Build x86_64-w64-mingw32-g++.
 
 
-# PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
+* PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 
 cd depends
 
