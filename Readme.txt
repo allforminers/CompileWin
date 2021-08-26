@@ -90,7 +90,7 @@ cd depends
 
 ----------
 
-make -j8 HOST=x86_64-w64-mingw32
+make -j35 HOST=x86_64-w64-mingw32
 
 cd ..
 
@@ -100,7 +100,7 @@ cd ..
 
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
 
-make -j6
+make -j35
 
 
 
