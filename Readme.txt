@@ -89,9 +89,9 @@ cd depends
 
 make -j35 HOST=x86_64-w64-mingw32
 
-cd ..
-
 ----------
+
+cd ..
 
 ./autogen.sh
 
