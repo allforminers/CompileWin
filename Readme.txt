@@ -26,7 +26,7 @@ cd bls-signatures-20181101
 
 cmake .
 
-sudo make install
+sudo make -j8 install
 
 ----------
 
