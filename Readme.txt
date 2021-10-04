@@ -135,6 +135,6 @@ cd ..
 
 ./autogen.sh
 
-./configure --with-gui=no --prefix=$(pwd)/depends/x86_64-pc-linux-gnu
+./configure --with-gui=no --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-pc-linux-gnu
 
 make -j8
