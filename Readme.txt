@@ -87,7 +87,7 @@ PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 
 cd depends
 
-make -j35 HOST=x86_64-w64-mingw32
+make -j30 HOST=x86_64-w64-mingw32
 
 ----------
 
@@ -97,7 +97,7 @@ cd ..
 
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --disable-tests --disable-bench --prefix=/
 
-make -j35
+make -j30
 
 
 
@@ -121,7 +121,7 @@ cd bls-signatures-20181101
 
 cmake .
 
-make -j35 install
+make -j30 install
 
 cd ..
 
@@ -137,4 +137,4 @@ cd ..
 
 ./configure --with-gui=no --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-pc-linux-gnu
 
-make -j8
+make -j30
