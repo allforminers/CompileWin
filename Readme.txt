@@ -87,9 +87,9 @@ PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 
 cd depends
 
-make -j8 HOST=x86_64-pc-linux-gnu
+make -j6 HOST=x86_64-pc-linux-gnu
 
-make -j30 HOST=x86_64-w64-mingw32
+make -j6 HOST=x86_64-w64-mingw32
 
 
 
