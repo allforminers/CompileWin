@@ -143,6 +143,6 @@ cd ..
 
 ./configure --with-gui=no --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-pc-linux-gnu
 
-make -j30
+make -j6
 
-make -j8
+make -j6
