@@ -127,7 +127,9 @@ cd bls-signatures-20181101
 
 cmake .
 
-make -j30 install
+make -j30
+
+make install
 
 cd ..
 
