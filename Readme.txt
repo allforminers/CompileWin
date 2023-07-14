@@ -107,6 +107,15 @@ windows with --with-incompatible-bdb
 
 ./configure --with-incompatible-bdb --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-w64-mingw32
 
+NO GUI WIN
+
+./configure --with-incompatible-bdb --with-gui=no --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-w64-mingw32
+
+NO GUI LINUX
+
+./configure --with-gui=no --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-pc-linux-gnu
+
+
 make -j30
 
 make -j8
