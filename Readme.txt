@@ -103,6 +103,10 @@ cd ..
 
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --disable-tests --disable-bench --prefix=/
 
+windows with --with-incompatible-bdb
+
+./configure --with-incompatible-bdb --disable-tests --disable-bench --prefix=$(pwd)/depends/x86_64-w64-mingw32
+
 make -j30
 
 make -j8
